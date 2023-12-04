@@ -40,7 +40,7 @@ while true
             pig_latin_words.join('') 
           end
           # Тести
-          sentence1 = "Hello world"
+          sentence1 = gets.chomp
           result1 = pig_latin(sentence1)
           puts "Для речення '#{sentence1}', програма повинна вивести: '#{result1}'"
           sentence2 = "I love, Ruby programming!"
